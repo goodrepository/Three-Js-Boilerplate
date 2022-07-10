@@ -37,7 +37,7 @@ const material = new THREE.MeshStandardMaterial({color: 0xff0051});
 const cube = new THREE.Mesh(geometry, material);
 
 // ******** ADDING ANOTHER OBJECT INTO THE SCENE ********* \\
-const geometry2 = new THREE.BoxGeometry(3, 3, -3);
+const geometry2 = new THREE.BoxGeometry(3, 3, 3);
 const material2 = new THREE.MeshBasicMaterial({
     color: "#dadada",
     wireframe: true,
